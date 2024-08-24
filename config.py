@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 22481619
+API_HASH = "3c2e222e49249e039902bb3533f3df20"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "7491429540:AAFG-sER2qYWkJMOBlblY7FBeUPDgUkSUmA"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://pradeepp2k2:pradeepp2k2@cluster0.m3zcx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1002249282270
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 5632806673
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQFXCtMAd4iyQdwyfLqowlT0K4eBCR7xgzQ2OJsOEqHNHcEQQLDAYUlQJvv4qV3QYmOJRZU2Hcb-iWdsoRDvOT9PUgoiBOtLjR-sgCACXA3D5N6Zw3ocY0zCgyW67NJ0wvguyHioULv67Ls5aZAivw4N3X6lScSRGYKaSwn8wsEOAhDFNNWby6bp26BX20FpuKir9UqwB1bd2yHj8sq9mjPLxwDfXYiQebxRPhqTO_-zQdEosNYM4e5Q9s6K_EslEvkWI3vsjVmHm55inm84K1oryHexvSa7n835ZBWZDpcBUuXzx_iZsZbz56KwNfgnSCpWS-3I1EINxrDU36FQyyApPrbHhQAAAAFPvc8RAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -77,9 +77,9 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+START_IMG_URL = "https://graph.org/file/c9d253807527cea5678ed.jpg"
 
-PING_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+PING_IMG_URL = "https://graph.org/file/c9d253807527cea5678ed.jpg"
 
 PLAYLIST_IMG_URL = "https://graph.org/file/763a841a2ad5cbb1e2fc5.jpg"
 STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
@@ -102,13 +102,13 @@ DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
 
 
 if SUPPORT_CHANNEL:
-    if not re.match("(?:http|https)://", SUPPORT_CHANNEL):
+    if not re.match("(?:http|https)://", https://t.me/you_and_me_forever_host):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHANNEL url is wrong. Please ensure that it starts with https://"
         )
 
 if SUPPORT_GROUP:
-    if not re.match("(?:http|https)://", SUPPORT_GROUP):
+    if not re.match("(?:http|https)://", https://t.me/you_and_me_forever_host):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
